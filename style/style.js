@@ -3,6 +3,7 @@
 
 
 function updateSize(newSize) {
+	$("img").eq(0).css("width", newSize)
   // FINISH ME! Set the width of the MEET logo to be newSize in pixels.
 }
 
